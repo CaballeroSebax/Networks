@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(#000, #002);
+}
+.encabezado{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 0.4em;
+}
+
+.logo{
+    width: 200px;
+    height: 120px;
+    margin: auto;
+    
+}
+
+.nameweb{
+    color: rgba(255, 0, 0, 0.356);
+    text-align: center;
+    font-size: 20px;
+    font-family: "Sedgwick Ave Display", cursive;
+}
+
+.links{
+    width: 80%;
+    height: 100%;
+    padding-top: 0.5em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.25em;
+}
+
+.title{
+    font-size: 20px;
+    color: rgba(195, 0, 255, 0.452);
+    font-family: "Sedgwick Ave Display", cursive;
+}
+
+.imgl{
+    padding: 0 10px 0 0 ;
+    width: 50px;
+    height: 50px;
+}
+
+
+.name{
+    width: 250px;
+    height: auto;
+    padding: 0 0 0 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    background-color: #22222286;
+    color: #ffffff;
+    font-family: "Press Start 2P", system-ui;
+}
+a[href^="https://discord.gg/YjrEaYy25T"]:hover{
+    background-color: rgb(64, 78, 237) ;
+}
+a[href^="https://twitter.com/SCaball3r0"]:hover{
+    background-color: rgb(29, 155, 240) ;
+}
+a[href^="https://www.instagram.com/sebascaballer0/"]:hover{
+    background-color: rgb(227, 50, 109) ;
+}
+a[href^="https://www.facebook.com/Caball3roSebas"]:hover{
+    background-color: rgb(8, 102, 255) ;
+}
+a[href^="https://open.spotify.com/user/cabagamer"]:hover{
+    background-color: rgb(30, 214, 94) ;
+}
+a[href^="https://www.tiktok.com/@caballerosebax"]:hover{
+    background-color: #212423 ;
+}
+a[href^="https://github.com/CaballeroSebax"]:hover{
+    background-color: #000001 ;
+}
+a[href^="https://codepen.io/Sebastian-Caballero-Martinez"]:hover{
+    background-color: #0f1211 ;
+}
+
+
+a:hover{
+    color: white;
+}
+
+
+
+
+
+.pie{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    padding-top: 1.5em;
+    color: white;
+}
